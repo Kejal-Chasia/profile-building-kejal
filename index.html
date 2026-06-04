@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Kejal | People Operations Specialist</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&amp;family=Geist:wght@500;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    "colors": {
+                        "primary-container": "#254b8c",
+                        "surface-container": "#edeeef",
+                        "primary-fixed-dim": "#adc6ff",
+                        "tertiary-fixed": "#ffdadc",
+                        "tertiary-fixed-dim": "#eeb9bd",
+                        "on-tertiary-fixed": "#301216",
+                        "on-tertiary-container": "#e4b1b5",
+                        "surface-bright": "#f8f9fa",
+                        "on-background": "#191c1d",
+                        "error": "#ba1a1a",
+                        "on-secondary-fixed-variant": "#423f7d",
+                        "inverse-on-surface": "#f0f1f2",
+                        "surface-variant": "#e1e3e4",
+                        "error-container": "#ffdad6",
+                        "surface-container-high": "#e7e8e9",
+                        "on-error-container": "#93000a",
+                        "inverse-surface": "#2e3132",
+                        "inverse-primary": "#adc6ff",
+                        "primary": "#013374",
+                        "on-error": "#ffffff",
+                        "tertiary": "#4f2c30",
+                        "background": "#f8f9fa",
+                        "secondary-fixed": "#e3dfff",
+                        "surface-container-low": "#f3f4f5",
+                        "on-secondary": "#ffffff",
+                        "surface-tint": "#395d9f",
+                        "on-primary-fixed": "#001a42",
+                        "on-secondary-container": "#484683",
+                        "surface-container-lowest": "#ffffff",
+                        "tertiary-container": "#694246",
+                        "on-primary-fixed-variant": "#1e4586",
+                        "outline": "#747781",
+                        "outline-variant": "#c4c6d2",
+                        "on-secondary-fixed": "#16114f",
+                        "secondary": "#5a5796",
+                        "secondary-fixed-dim": "#c4c0ff",
+                        "surface-container-highest": "#e1e3e4",
+                        "on-surface-variant": "#434750",
+                        "primary-fixed": "#d8e2ff",
+                        "on-surface": "#191c1d",
+                        "surface": "#f8f9fa",
+                        "on-tertiary": "#ffffff",
+                        "surface-dim": "#d9dadb",
+                        "on-tertiary-fixed-variant": "#623c40",
+                        "on-primary-container": "#9fbdff",
+                        "on-primary": "#ffffff",
+                        "secondary-container": "#bab7fd"
+                    },
+                    "borderRadius": {
+                        "DEFAULT": "0.125rem",
+                        "lg": "0.25rem",
+                        "xl": "0.5rem",
+                        "full": "0.75rem"
+                    },
+                    "spacing": {
+                        "xl": "3rem",
+                        "base": "4px",
+                        "sm": "1rem",
+                        "gutter": "1.5rem",
+                        "lg": "2rem",
+                        "margin-mobile": "1rem",
+                        "margin-desktop": "2.5rem",
+                        "xs": "0.5rem",
+                        "md": "1.5rem"
+                    },
+                    "fontFamily": {
+                        "body-lg": ["Inter"],
+                        "body-sm": ["Inter"],
+                        "headline-md": ["Geist"],
+                        "label-sm": ["Geist"],
+                        "headline-lg-mobile": ["Geist"],
+                        "label-md": ["Geist"],
+                        "display-lg": ["Geist"],
+                        "headline-lg": ["Geist"],
+                        "body-md": ["Inter"]
+                    },
+                    "fontSize": {
+                        "body-lg": ["18px", {"lineHeight": "1.6", "fontWeight": "400"}],
+                        "body-sm": ["14px", {"lineHeight": "1.5", "fontWeight": "400"}],
+                        "headline-md": ["24px", {"lineHeight": "1.3", "fontWeight": "500"}],
+                        "label-sm": ["12px", {"lineHeight": "1", "fontWeight": "600"}],
+                        "headline-lg-mobile": ["24px", {"lineHeight": "1.2", "fontWeight": "600"}],
+                        "label-md": ["14px", {"lineHeight": "1", "letterSpacing": "0.02em", "fontWeight": "500"}],
+                        "display-lg": ["48px", {"lineHeight": "1.1", "letterSpacing": "-0.02em", "fontWeight": "600"}],
+                        "headline-lg": ["32px", {"lineHeight": "1.2", "letterSpacing": "-0.01em", "fontWeight": "600"}],
+                        "body-md": ["16px", {"lineHeight": "1.5", "fontWeight": "400"}]
+                    }
+                },
+            },
+        }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        body {
+            background-color: #f8f9fa;
+        }
+        .glass-card {
+            background: rgba(255, 255, 255, 0.8);
+            backdrop-filter: blur(8px);
+            border: 1px solid #E5E7EB;
+        }
+    </style>
+</head>
+<body class="font-body-md text-on-surface">
+<!-- TopNavBar -->
+<nav class="bg-surface docked full-width top-0 border-b border-surface-variant flex justify-between items-center w-full px-margin-mobile md:px-margin-desktop max-w-7xl mx-auto h-16 sticky z-50">
+<div class="font-headline-md text-headline-md font-bold text-primary">Kejal Chasia</div>
+<div class="hidden md:flex gap-lg items-center">
+<a class="font-body-md text-body-md text-primary font-bold border-b-2 border-primary pb-1 transition-all duration-200 ease-in-out" href="#">Profile</a>
+<a class="font-body-md text-body-md text-on-surface-variant hover:text-primary transition-colors transition-all duration-200 ease-in-out" href="#">Portfolio</a>
+<a class="font-body-md text-body-md text-on-surface-variant hover:text-primary transition-colors transition-all duration-200 ease-in-out" href="#">Contact</a>
+</div>
+<div class="flex items-center gap-sm">
+<span class="material-symbols-outlined text-on-surface-variant cursor-pointer hover:text-primary transition-colors">settings</span>
+<div class="w-8 h-8 rounded-full bg-secondary-container flex items-center justify-center text-on-secondary-container font-label-md text-label-md" title="KS initials avatar">KS</div>
+</div>
+</nav>
+<main class="max-w-7xl mx-auto px-margin-mobile md:px-margin-desktop py-xl">
+<!-- Hero Section -->
+<section class="grid grid-cols-1 lg:grid-cols-12 gap-lg items-center mb-xl">
+<div class="lg:col-span-7 space-y-md">
+<div class="inline-flex items-center px-sm py-xs bg-secondary-fixed text-on-secondary-fixed rounded-full font-label-sm text-label-sm uppercase tracking-wider">
+                    People Operations Specialist
+                </div>
+<h1 class="font-display-lg text-display-lg text-primary tracking-tight">
+                    Optimizing the <span class="text-secondary">Human Experience</span> at Contentstack.
+                </h1>
+<p class="font-body-lg text-body-lg text-on-surface-variant max-w-2xl">
+                    I balance operational excellence with genuine empathy, transforming complex manual HR tasks into streamlined, digital workflows that empower teams to do their best work.
+                </p>
+<div class="flex gap-md pt-md">
+<button class="bg-primary text-on-primary px-lg py-sm font-label-md text-label-md rounded-lg hover:opacity-90 transition-opacity">View Portfolio</button>
+<button class="border border-secondary text-secondary px-lg py-sm font-label-md text-label-md rounded-lg hover:bg-secondary-container/10 transition-colors">Contact Me</button>
+</div>
+</div>
+<div class="lg:col-span-5 relative group">
+<div class="absolute inset-0 bg-gradient-to-tr from-primary/10 to-tertiary/10 rounded-xl -rotate-3 group-hover:rotate-0 transition-transform duration-500"></div>
+<div class="relative aspect-square overflow-hidden rounded-xl border border-outline-variant glass-card">
+<img class="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-700" data-alt="A professional and modern workspace scene featuring a clean desk with a high-end laptop, a minimalist ceramic mug, and a small green plant. The lighting is soft and airy, reflecting a light-mode corporate aesthetic with subtle blue and lavender tones in the background. The overall mood is calm, organized, and technologically advanced, echoing the 'Operational Excellence' brand pillar." src="./assets/profile.png"/>
+</div>
+</div>
+</section>
+<!-- Bento Highlights -->
+<section class="grid grid-cols-1 md:grid-cols-3 gap-gutter mb-xl">
+<!-- Empathy Card -->
+<div class="md:col-span-2 p-lg bg-surface-container-lowest border border-outline-variant rounded-xl flex flex-col justify-between space-y-md">
+<div class="space-y-sm">
+<div class="w-12 h-12 bg-tertiary-fixed text-on-tertiary-fixed rounded-lg flex items-center justify-center">
+<span class="material-symbols-outlined">favorite</span>
+</div>
+<h2 class="font-headline-lg text-headline-lg text-primary">Empathy Driven Ops</h2>
+<p class="font-body-md text-body-md text-on-surface-variant">
+                        Operational efficiency is nothing without a human touch. My focus is on creating People Experiences that feel supportive rather than purely transactional.
+                    </p>
+</div>
+<div class="flex gap-xs items-center">
+<span class="px-sm py-xs bg-surface-container text-on-surface-variant rounded-full font-label-sm text-label-sm">Human-Centric</span>
+<span class="px-sm py-xs bg-surface-container text-on-surface-variant rounded-full font-label-sm text-label-sm">People Experience</span>
+</div>
+</div>
+<!-- Hibob Card -->
+<div class="p-lg bg-primary-container text-on-primary-container border border-primary rounded-xl flex flex-col justify-between">
+<div class="space-y-sm">
+<div class="w-10 h-10 bg-on-primary-container text-primary-container rounded-lg flex items-center justify-center">
+<span class="material-symbols-outlined">rocket_launch</span>
+</div>
+<h3 class="font-headline-md text-headline-md">Hibob Implementation</h3>
+<p class="font-body-sm text-body-sm opacity-90">
+                        Successfully led the migration and rollout of Hibob, reducing manual onboarding time by 40%.
+                    </p>
+</div>
+<a class="flex items-center gap-xs font-label-md text-label-md mt-md hover:underline" href="#">
+                    Read Case Study <span class="material-symbols-outlined text-[18px]">arrow_forward</span>
+</a>
+</div>
+<!-- AI Bot Card -->
+<div class="p-lg border border-outline-variant rounded-xl glass-card relative overflow-hidden group">
+<div class="absolute -right-4 -top-4 w-24 h-24 bg-tertiary-fixed-dim/20 rounded-full group-hover:scale-150 transition-transform duration-700"></div>
+<div class="space-y-sm relative z-10">
+<span class="material-symbols-outlined text-tertiary">smart_toy</span>
+<h3 class="font-headline-md text-headline-md text-primary">AI Automation</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+                        Building an AI-powered chatbot to automate repetitive internal HR queries, freeing up the team for high-impact work.
+                    </p>
+</div>
+</div>
+<!-- Tech Mastery Card -->
+<div class="md:col-span-2 p-lg bg-surface-container-low border border-outline-variant rounded-xl flex items-center gap-lg">
+<div class="hidden sm:block w-32 h-32 shrink-0 bg-white rounded-xl border border-outline-variant p-md">
+<img class="w-full h-full object-cover rounded-lg" data-alt="A clean, minimalist data visualization dashboard displayed on a high-resolution screen. The interface uses soft corporate blues and lavender accents, showing neat charts and organized statistics. The setting is a bright, modern office space with natural sunlight, symbolizing the intersection of data precision and human-centric operations." src="https://lh3.googleusercontent.com/aida-public/AB6AXuChYIWiT0nhfiSzWzSYowv0s7drwJ2Zgw8g7pOD5Cvh_olM3OzJ_bWuVX28nptvYjrNBjAWeR2HSDhrx0QDTv36-YUGeuF2a-X1-enlEw64QUr_Wo0Gx5Mw8txKkc6rTBhlxnEGwJ_g4SoMK2dBKaH7ZsJiuyhZY-lBKZfKyWjR38JSZ8uPa6feGVKp2kwuD_uw28t_5_cOhY4t6IwhZiA0D_nmp1D076OE174Q8fgEpROz5A3IPF-KrqGXPxKHKtVqY_jl7StrUqC-"/>
+</div>
+<div class="space-y-xs">
+<h3 class="font-headline-md text-headline-md text-primary">Mastering Technology &amp; HR</h3>
+<p class="font-body-md text-body-md text-on-surface-variant">
+                        Bridging the gap between legacy HR processes and modern SaaS tools. Specializing in workflow orchestration and technical HR integrations.
+                    </p>
+</div>
+</div>
+</section>
+<!-- Profile Detail Section -->
+<section class="mb-xl bg-white border border-outline-variant rounded-xl overflow-hidden">
+<div class="p-lg md:p-xl grid grid-cols-1 md:grid-cols-2 gap-xl items-center">
+<div class="space-y-md">
+<h2 class="font-headline-lg text-headline-lg text-primary">Operational Excellence</h2>
+<p class="font-body-lg text-body-lg text-on-surface-variant">
+                        My philosophy is simple: complexity is the enemy of progress. I dive deep into the technical architecture of HR systems to ensure that our people are supported by robust, invisible infrastructure.
+                    </p>
+<ul class="space-y-sm">
+<li class="flex items-start gap-sm">
+<span class="material-symbols-outlined text-secondary mt-1">check_circle</span>
+<span class="font-body-md text-body-md">End-to-end HRIS architecture and management.</span>
+</li>
+<li class="flex items-start gap-sm">
+<span class="material-symbols-outlined text-secondary mt-1">check_circle</span>
+<span class="font-body-md text-body-md">Scalable onboarding and offboarding automation.</span>
+</li>
+<li class="flex items-start gap-sm">
+<span class="material-symbols-outlined text-secondary mt-1">check_circle</span>
+<span class="font-body-md text-body-md">Data-driven people analytics and reporting.</span>
+</li>
+</ul>
+</div>
+<div class="aspect-video bg-surface-container-high rounded-lg flex items-center justify-center p-lg">
+<div class="text-center space-y-sm">
+<div class="text-display-lg font-display-lg text-primary">40%</div>
+<div class="font-label-md text-label-md text-on-surface-variant tracking-widest uppercase">Manual Task Reduction</div>
+</div>
+</div>
+</div>
+</section>
+</main>
+<!-- Footer -->
+<footer class="bg-surface-container-lowest border-t border-surface-variant w-full py-lg px-margin-mobile md:px-margin-desktop flex flex-col md:flex-row justify-between items-center gap-md">
+<div class="flex flex-col items-center md:items-start gap-xs">
+<div class="font-headline-md text-headline-md text-primary font-bold">Kejal</div>
+<p class="font-label-md text-label-md text-on-surface-variant opacity-80">© 2024 Kejal. People Operations Specialist.</p>
+</div>
+<div class="flex gap-lg">
+<a class="font-label-md text-label-md text-on-surface-variant hover:text-primary transition-colors opacity-80 hover:opacity-100" href="#">LinkedIn</a>
+<a class="font-label-md text-label-md text-on-surface-variant hover:text-primary transition-colors opacity-80 hover:opacity-100" href="#">Twitter</a>
+<a class="font-label-md text-label-md text-on-surface-variant hover:text-primary transition-colors opacity-80 hover:opacity-100" href="#">Email</a>
+</div>
+</footer>
+</body></html>
