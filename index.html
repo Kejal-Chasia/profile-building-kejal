@@ -1,262 +1,924 @@
 <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kejal Chasia | People Operations Partner</title>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --plum:       #3d1f5c;
+      --purple:     #6b35a8;
+      --lilac:      #9b72cf;
+      --blush:      #e8b4d0;
+      --petal:      #fce8f4;
+      --mist:       #f4eeff;
+      --cream:      #fdfbff;
+      --ink:        #1e1030;
+      --body:       #3d3050;
+      --muted:      #8b7ba8;
+      --white:      #ffffff;
+      --gold:       #c9963a;
+    }
 
-<html class="light" lang="en"><head>
-<meta charset="utf-8"/>
-<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<title>Kejal | People Operations Specialist</title>
-<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&amp;family=Geist:wght@500;600;700&amp;display=swap" rel="stylesheet"/>
-<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
-<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
-<script id="tailwind-config">
-        tailwind.config = {
-            darkMode: "class",
-            theme: {
-                extend: {
-                    "colors": {
-                        "primary-container": "#254b8c",
-                        "surface-container": "#edeeef",
-                        "primary-fixed-dim": "#adc6ff",
-                        "tertiary-fixed": "#ffdadc",
-                        "tertiary-fixed-dim": "#eeb9bd",
-                        "on-tertiary-fixed": "#301216",
-                        "on-tertiary-container": "#e4b1b5",
-                        "surface-bright": "#f8f9fa",
-                        "on-background": "#191c1d",
-                        "error": "#ba1a1a",
-                        "on-secondary-fixed-variant": "#423f7d",
-                        "inverse-on-surface": "#f0f1f2",
-                        "surface-variant": "#e1e3e4",
-                        "error-container": "#ffdad6",
-                        "surface-container-high": "#e7e8e9",
-                        "on-error-container": "#93000a",
-                        "inverse-surface": "#2e3132",
-                        "inverse-primary": "#adc6ff",
-                        "primary": "#013374",
-                        "on-error": "#ffffff",
-                        "tertiary": "#4f2c30",
-                        "background": "#f8f9fa",
-                        "secondary-fixed": "#e3dfff",
-                        "surface-container-low": "#f3f4f5",
-                        "on-secondary": "#ffffff",
-                        "surface-tint": "#395d9f",
-                        "on-primary-fixed": "#001a42",
-                        "on-secondary-container": "#484683",
-                        "surface-container-lowest": "#ffffff",
-                        "tertiary-container": "#694246",
-                        "on-primary-fixed-variant": "#1e4586",
-                        "outline": "#747781",
-                        "outline-variant": "#c4c6d2",
-                        "on-secondary-fixed": "#16114f",
-                        "secondary": "#5a5796",
-                        "secondary-fixed-dim": "#c4c0ff",
-                        "surface-container-highest": "#e1e3e4",
-                        "on-surface-variant": "#434750",
-                        "primary-fixed": "#d8e2ff",
-                        "on-surface": "#191c1d",
-                        "surface": "#f8f9fa",
-                        "on-tertiary": "#ffffff",
-                        "surface-dim": "#d9dadb",
-                        "on-tertiary-fixed-variant": "#623c40",
-                        "on-primary-container": "#9fbdff",
-                        "on-primary": "#ffffff",
-                        "secondary-container": "#bab7fd"
-                    },
-                    "borderRadius": {
-                        "DEFAULT": "0.125rem",
-                        "lg": "0.25rem",
-                        "xl": "0.5rem",
-                        "full": "0.75rem"
-                    },
-                    "spacing": {
-                        "xl": "3rem",
-                        "base": "4px",
-                        "sm": "1rem",
-                        "gutter": "1.5rem",
-                        "lg": "2rem",
-                        "margin-mobile": "1rem",
-                        "margin-desktop": "2.5rem",
-                        "xs": "0.5rem",
-                        "md": "1.5rem"
-                    },
-                    "fontFamily": {
-                        "body-lg": ["Inter"],
-                        "body-sm": ["Inter"],
-                        "headline-md": ["Geist"],
-                        "label-sm": ["Geist"],
-                        "headline-lg-mobile": ["Geist"],
-                        "label-md": ["Geist"],
-                        "display-lg": ["Geist"],
-                        "headline-lg": ["Geist"],
-                        "body-md": ["Inter"]
-                    },
-                    "fontSize": {
-                        "body-lg": ["18px", {"lineHeight": "1.6", "fontWeight": "400"}],
-                        "body-sm": ["14px", {"lineHeight": "1.5", "fontWeight": "400"}],
-                        "headline-md": ["24px", {"lineHeight": "1.3", "fontWeight": "500"}],
-                        "label-sm": ["12px", {"lineHeight": "1", "fontWeight": "600"}],
-                        "headline-lg-mobile": ["24px", {"lineHeight": "1.2", "fontWeight": "600"}],
-                        "label-md": ["14px", {"lineHeight": "1", "letterSpacing": "0.02em", "fontWeight": "500"}],
-                        "display-lg": ["48px", {"lineHeight": "1.1", "letterSpacing": "-0.02em", "fontWeight": "600"}],
-                        "headline-lg": ["32px", {"lineHeight": "1.2", "letterSpacing": "-0.01em", "fontWeight": "600"}],
-                        "body-md": ["16px", {"lineHeight": "1.5", "fontWeight": "400"}]
-                    }
-                },
-            },
-        }
-    </script>
-<style>
-        .material-symbols-outlined {
-            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
-        }
-        body {
-            background-color: #f8f9fa;
-        }
-        .glass-card {
-            background: rgba(255, 255, 255, 0.8);
-            backdrop-filter: blur(8px);
-            border: 1px solid #E5E7EB;
-        }
-    </style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      font-family: 'Inter', sans-serif;
+      background: var(--cream);
+      color: var(--body);
+      line-height: 1.6;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    /* ── NAV ── */
+    nav {
+      position: fixed; top: 0; left: 0; right: 0; z-index: 100;
+      background: rgba(253,251,255,0.92);
+      backdrop-filter: blur(12px);
+      border-bottom: 1px solid rgba(155,114,207,0.12);
+      padding: 0 5%;
+      display: flex; align-items: center; justify-content: space-between;
+      height: 64px;
+    }
+    .nav-logo {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 22px; font-weight: 600;
+      color: var(--plum); letter-spacing: 0.5px;
+    }
+    .nav-links { display: flex; gap: 36px; list-style: none; }
+    .nav-links a {
+      font-size: 13px; font-weight: 500; letter-spacing: 0.5px;
+      color: var(--body); text-decoration: none;
+      transition: color 0.2s;
+    }
+    .nav-links a:hover { color: var(--purple); }
+    .nav-cta {
+      background: var(--purple); color: white;
+      border: none; border-radius: 8px;
+      padding: 9px 22px; font-size: 13px; font-weight: 500;
+      cursor: pointer; text-decoration: none;
+      transition: background 0.2s, transform 0.15s;
+    }
+    .nav-cta:hover { background: var(--plum); transform: translateY(-1px); }
+
+    /* ── HERO ── */
+    .hero {
+      min-height: 100vh;
+      display: flex; align-items: center;
+      padding: 100px 5% 60px;
+      background: linear-gradient(145deg, var(--cream) 0%, var(--mist) 50%, var(--petal) 100%);
+      position: relative; overflow: hidden;
+    }
+    .hero::before {
+      content: '';
+      position: absolute; top: -200px; right: -200px;
+      width: 700px; height: 700px;
+      background: radial-gradient(circle, rgba(155,114,207,0.12) 0%, transparent 70%);
+      border-radius: 50%;
+    }
+    .hero::after {
+      content: '';
+      position: absolute; bottom: -150px; left: -100px;
+      width: 500px; height: 500px;
+      background: radial-gradient(circle, rgba(232,180,208,0.15) 0%, transparent 70%);
+      border-radius: 50%;
+    }
+    .hero-inner {
+      max-width: 1200px; margin: 0 auto; width: 100%;
+      display: grid; grid-template-columns: 1fr 420px;
+      gap: 80px; align-items: center;
+      position: relative; z-index: 2;
+    }
+    .hero-tag {
+      display: inline-flex; align-items: center; gap: 8px;
+      background: rgba(107,53,168,0.08);
+      border: 1px solid rgba(107,53,168,0.18);
+      border-radius: 30px; padding: 6px 16px;
+      font-size: 12px; font-weight: 500; letter-spacing: 1px;
+      text-transform: uppercase; color: var(--purple);
+      margin-bottom: 24px;
+    }
+    .hero-tag-dot {
+      width: 6px; height: 6px; border-radius: 50%;
+      background: var(--purple); animation: pulse 2s infinite;
+    }
+    @keyframes pulse {
+      0%,100% { opacity: 1; transform: scale(1); }
+      50% { opacity: 0.5; transform: scale(1.3); }
+    }
+    .hero h1 {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: clamp(42px, 5.5vw, 72px);
+      font-weight: 300; line-height: 1.1;
+      color: var(--ink); margin-bottom: 8px;
+    }
+    .hero h1 em {
+      font-style: italic; font-weight: 400;
+      background: linear-gradient(135deg, var(--purple), var(--blush));
+      -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+    .hero-sub {
+      font-size: 17px; font-weight: 300; color: var(--muted);
+      margin: 20px 0 36px; max-width: 520px; line-height: 1.7;
+    }
+    .hero-actions { display: flex; gap: 14px; flex-wrap: wrap; }
+    .btn-primary {
+      background: var(--purple); color: white;
+      border: none; border-radius: 10px;
+      padding: 14px 28px; font-size: 14px; font-weight: 500;
+      cursor: pointer; text-decoration: none;
+      transition: all 0.2s; display: inline-flex; align-items: center; gap: 8px;
+    }
+    .btn-primary:hover { background: var(--plum); transform: translateY(-2px); box-shadow: 0 8px 24px rgba(107,53,168,0.25); }
+    .btn-outline {
+      background: transparent; color: var(--purple);
+      border: 1.5px solid rgba(107,53,168,0.3); border-radius: 10px;
+      padding: 14px 28px; font-size: 14px; font-weight: 500;
+      cursor: pointer; text-decoration: none;
+      transition: all 0.2s; display: inline-flex; align-items: center; gap: 8px;
+    }
+    .btn-outline:hover { border-color: var(--purple); background: rgba(107,53,168,0.05); }
+
+    /* Stats row */
+    .hero-stats {
+      display: flex; gap: 32px; margin-top: 48px; flex-wrap: wrap;
+    }
+    .stat { display: flex; flex-direction: column; }
+    .stat-num {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 38px; font-weight: 600; color: var(--plum);
+      line-height: 1;
+    }
+    .stat-label {
+      font-size: 11px; font-weight: 500; letter-spacing: 0.5px;
+      color: var(--muted); margin-top: 4px;
+    }
+    .stat-divider {
+      width: 1px; background: rgba(155,114,207,0.2);
+      align-self: stretch; margin: 4px 0;
+    }
+
+    /* Hero card */
+    .hero-card {
+      background: white;
+      border-radius: 24px;
+      padding: 36px;
+      box-shadow: 0 20px 60px rgba(61,31,92,0.1);
+      border: 1px solid rgba(155,114,207,0.12);
+      position: relative; overflow: hidden;
+    }
+    .hero-card::before {
+      content: '';
+      position: absolute; top: 0; left: 0; right: 0; height: 4px;
+      background: linear-gradient(90deg, var(--purple), var(--blush));
+    }
+    .hero-card-avatar {
+      width: 72px; height: 72px; border-radius: 50%;
+      background: linear-gradient(135deg, var(--purple), var(--blush));
+      display: flex; align-items: center; justify-content: center;
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 28px; font-weight: 600; color: white;
+      margin-bottom: 16px;
+    }
+    .hero-card-name {
+      font-size: 18px; font-weight: 600; color: var(--ink); margin-bottom: 4px;
+    }
+    .hero-card-title {
+      font-size: 13px; color: var(--purple); font-weight: 500; margin-bottom: 20px;
+    }
+    .hero-card-items { display: flex; flex-direction: column; gap: 12px; }
+    .hero-card-item {
+      display: flex; align-items: center; gap: 12px;
+      padding: 12px 14px;
+      background: var(--mist); border-radius: 10px;
+    }
+    .hero-card-icon {
+      width: 32px; height: 32px; border-radius: 8px;
+      background: rgba(107,53,168,0.1);
+      display: flex; align-items: center; justify-content: center;
+      font-size: 15px; flex-shrink: 0;
+    }
+    .hero-card-item-text { font-size: 13px; font-weight: 500; color: var(--body); }
+    .hero-card-item-sub { font-size: 11px; color: var(--muted); }
+
+    /* ── SECTION WRAPPER ── */
+    section { padding: 100px 5%; }
+    .section-inner { max-width: 1200px; margin: 0 auto; }
+    .section-eyebrow {
+      font-size: 11px; font-weight: 600; letter-spacing: 3px;
+      text-transform: uppercase; color: var(--purple);
+      margin-bottom: 12px;
+    }
+    .section-title {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: clamp(32px, 4vw, 52px);
+      font-weight: 300; line-height: 1.2; color: var(--ink);
+      margin-bottom: 16px;
+    }
+    .section-title em { font-style: italic; color: var(--purple); }
+    .section-sub {
+      font-size: 16px; font-weight: 300; color: var(--muted);
+      max-width: 560px; line-height: 1.7;
+    }
+
+    /* ── IMPACT NUMBERS ── */
+    .impact { background: var(--plum); }
+    .impact-grid {
+      display: grid; grid-template-columns: repeat(4, 1fr);
+      gap: 2px; background: rgba(255,255,255,0.08);
+      border-radius: 20px; overflow: hidden;
+    }
+    .impact-item {
+      background: rgba(255,255,255,0.04);
+      padding: 48px 32px; text-align: center;
+      transition: background 0.2s;
+    }
+    .impact-item:hover { background: rgba(255,255,255,0.08); }
+    .impact-num {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 56px; font-weight: 600;
+      color: white; line-height: 1; margin-bottom: 8px;
+    }
+    .impact-num span { font-size: 32px; color: var(--blush); }
+    .impact-label {
+      font-size: 12px; font-weight: 500; letter-spacing: 1px;
+      text-transform: uppercase; color: rgba(255,255,255,0.55);
+    }
+    .impact-sub {
+      font-size: 13px; color: rgba(255,255,255,0.35);
+      margin-top: 4px;
+    }
+
+    /* ── ABOUT ── */
+    .about { background: white; }
+    .about-grid {
+      display: grid; grid-template-columns: 1fr 1fr;
+      gap: 80px; align-items: start;
+    }
+    .about-text p {
+      font-size: 16px; font-weight: 300; color: var(--body);
+      line-height: 1.8; margin-bottom: 20px;
+    }
+    .about-text strong { font-weight: 600; color: var(--plum); }
+    .about-highlights { display: flex; flex-direction: column; gap: 16px; }
+    .highlight-item {
+      display: flex; gap: 16px; align-items: flex-start;
+      padding: 20px; border-radius: 14px;
+      border: 1px solid rgba(155,114,207,0.14);
+      transition: border-color 0.2s, box-shadow 0.2s;
+    }
+    .highlight-item:hover {
+      border-color: rgba(155,114,207,0.3);
+      box-shadow: 0 4px 20px rgba(107,53,168,0.06);
+    }
+    .highlight-icon {
+      width: 44px; height: 44px; border-radius: 10px; flex-shrink: 0;
+      background: linear-gradient(135deg, var(--purple), var(--lilac));
+      display: flex; align-items: center; justify-content: center;
+      font-size: 20px;
+    }
+    .highlight-title { font-size: 14px; font-weight: 600; color: var(--ink); margin-bottom: 4px; }
+    .highlight-desc { font-size: 13px; color: var(--muted); line-height: 1.5; }
+
+    /* ── PROJECTS ── */
+    .projects { background: var(--mist); }
+    .projects-grid {
+      display: grid; grid-template-columns: repeat(3, 1fr);
+      gap: 24px; margin-top: 56px;
+    }
+    .project-card {
+      background: white; border-radius: 20px;
+      padding: 32px; border: 1px solid rgba(155,114,207,0.12);
+      transition: transform 0.2s, box-shadow 0.2s;
+      display: flex; flex-direction: column;
+    }
+    .project-card:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 16px 48px rgba(61,31,92,0.1);
+    }
+    .project-tag {
+      display: inline-flex; align-items: center; gap: 6px;
+      font-size: 10px; font-weight: 600; letter-spacing: 1.5px;
+      text-transform: uppercase; color: var(--purple);
+      background: rgba(107,53,168,0.08); border-radius: 6px;
+      padding: 4px 10px; margin-bottom: 20px; width: fit-content;
+    }
+    .project-icon {
+      width: 52px; height: 52px; border-radius: 14px; margin-bottom: 20px;
+      display: flex; align-items: center; justify-content: center;
+      font-size: 24px;
+    }
+    .project-title {
+      font-size: 18px; font-weight: 600; color: var(--ink);
+      margin-bottom: 10px; line-height: 1.3;
+    }
+    .project-desc {
+      font-size: 14px; color: var(--muted); line-height: 1.7;
+      flex: 1; margin-bottom: 24px;
+    }
+    .project-stats {
+      display: flex; gap: 16px; flex-wrap: wrap;
+      padding-top: 20px;
+      border-top: 1px solid rgba(155,114,207,0.1);
+    }
+    .project-stat-item { display: flex; flex-direction: column; }
+    .project-stat-num {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 24px; font-weight: 600; color: var(--purple); line-height: 1;
+    }
+    .project-stat-label { font-size: 11px; color: var(--muted); margin-top: 2px; }
+
+    /* ── SKILLS ── */
+    .skills { background: white; }
+    .skills-grid {
+      display: grid; grid-template-columns: repeat(3, 1fr);
+      gap: 24px; margin-top: 56px;
+    }
+    .skill-group {
+      padding: 28px; border-radius: 16px;
+      border: 1px solid rgba(155,114,207,0.14);
+      background: var(--cream);
+    }
+    .skill-group-title {
+      font-size: 13px; font-weight: 600; color: var(--plum);
+      letter-spacing: 0.5px; margin-bottom: 16px;
+      display: flex; align-items: center; gap: 8px;
+    }
+    .skill-group-icon { font-size: 18px; }
+    .skill-tags { display: flex; flex-wrap: wrap; gap: 8px; }
+    .skill-tag {
+      font-size: 12px; font-weight: 500; color: var(--body);
+      background: white; border: 1px solid rgba(155,114,207,0.18);
+      border-radius: 6px; padding: 5px 12px;
+    }
+
+    /* ── AWARDS ── */
+    .awards { background: var(--petal); }
+    .awards-grid {
+      display: grid; grid-template-columns: repeat(3, 1fr);
+      gap: 24px; margin-top: 56px;
+    }
+    .award-card {
+      background: white; border-radius: 20px;
+      padding: 36px 28px; text-align: center;
+      border: 1px solid rgba(155,114,207,0.12);
+      transition: transform 0.2s, box-shadow 0.2s;
+    }
+    .award-card:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 12px 36px rgba(61,31,92,0.1);
+    }
+    .award-emoji { font-size: 40px; margin-bottom: 16px; display: block; }
+    .award-title {
+      font-size: 16px; font-weight: 600; color: var(--ink);
+      margin-bottom: 8px;
+    }
+    .award-count {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 28px; font-weight: 600; color: var(--purple);
+      margin-bottom: 8px;
+    }
+    .award-desc { font-size: 13px; color: var(--muted); line-height: 1.5; }
+
+    /* ── EXPERIENCE ── */
+    .experience { background: white; }
+    .timeline { margin-top: 56px; display: flex; flex-direction: column; gap: 0; }
+    .timeline-item {
+      display: grid; grid-template-columns: 200px 1fr;
+      gap: 40px; padding: 36px 0;
+      border-bottom: 1px solid rgba(155,114,207,0.1);
+    }
+    .timeline-item:last-child { border-bottom: none; }
+    .timeline-date {
+      font-size: 12px; font-weight: 600; letter-spacing: 0.5px;
+      color: var(--muted); padding-top: 4px; text-align: right;
+    }
+    .timeline-dot {
+      width: 10px; height: 10px; border-radius: 50%;
+      background: var(--purple); margin: 6px auto 0;
+    }
+    .timeline-content {}
+    .timeline-company {
+      font-size: 12px; font-weight: 600; letter-spacing: 1px;
+      text-transform: uppercase; color: var(--purple); margin-bottom: 4px;
+    }
+    .timeline-role {
+      font-size: 18px; font-weight: 600; color: var(--ink); margin-bottom: 12px;
+    }
+    .timeline-desc {
+      font-size: 14px; color: var(--muted); line-height: 1.7; margin-bottom: 16px;
+    }
+    .timeline-tags { display: flex; flex-wrap: wrap; gap: 8px; }
+    .timeline-tag {
+      font-size: 11px; font-weight: 500;
+      background: var(--mist); color: var(--purple);
+      border-radius: 6px; padding: 4px 10px;
+    }
+
+    /* ── CONTACT ── */
+    .contact {
+      background: linear-gradient(145deg, var(--plum), #5c2d8a);
+      text-align: center; padding: 100px 5%;
+    }
+    .contact-inner { max-width: 640px; margin: 0 auto; }
+    .contact h2 {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: clamp(36px, 5vw, 60px);
+      font-weight: 300; color: white; margin-bottom: 16px; line-height: 1.2;
+    }
+    .contact h2 em { font-style: italic; color: var(--blush); }
+    .contact p {
+      font-size: 16px; color: rgba(255,255,255,0.6);
+      margin-bottom: 40px; line-height: 1.7;
+    }
+    .contact-links {
+      display: flex; justify-content: center; gap: 16px; flex-wrap: wrap;
+    }
+    .contact-link {
+      display: inline-flex; align-items: center; gap: 8px;
+      padding: 12px 24px; border-radius: 10px;
+      font-size: 14px; font-weight: 500; text-decoration: none;
+      transition: all 0.2s;
+    }
+    .contact-link-primary {
+      background: var(--blush); color: var(--plum);
+    }
+    .contact-link-primary:hover { background: white; transform: translateY(-2px); }
+    .contact-link-secondary {
+      background: rgba(255,255,255,0.1); color: white;
+      border: 1px solid rgba(255,255,255,0.2);
+    }
+    .contact-link-secondary:hover { background: rgba(255,255,255,0.2); }
+
+    /* ── FOOTER ── */
+    footer {
+      background: var(--ink); padding: 32px 5%;
+      display: flex; align-items: center; justify-content: space-between;
+    }
+    .footer-name {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 18px; color: rgba(255,255,255,0.6);
+    }
+    .footer-copy { font-size: 12px; color: rgba(255,255,255,0.3); }
+
+    /* ── RESPONSIVE ── */
+    @media (max-width: 900px) {
+      .hero-inner { grid-template-columns: 1fr; }
+      .hero-card { display: none; }
+      .about-grid { grid-template-columns: 1fr; gap: 40px; }
+      .projects-grid { grid-template-columns: 1fr; }
+      .skills-grid { grid-template-columns: 1fr 1fr; }
+      .awards-grid { grid-template-columns: 1fr; }
+      .impact-grid { grid-template-columns: 1fr 1fr; }
+      .timeline-item { grid-template-columns: 1fr; gap: 8px; }
+      .timeline-date { text-align: left; }
+      footer { flex-direction: column; gap: 8px; text-align: center; }
+    }
+    @media (max-width: 600px) {
+      .nav-links { display: none; }
+      .skills-grid { grid-template-columns: 1fr; }
+      .impact-grid { grid-template-columns: 1fr 1fr; }
+      .hero-stats { gap: 16px; }
+    }
+  </style>
 </head>
-<body class="font-body-md text-on-surface">
-<!-- TopNavBar -->
-<nav class="bg-surface docked full-width top-0 border-b border-surface-variant flex justify-between items-center w-full px-margin-mobile md:px-margin-desktop max-w-7xl mx-auto h-16 sticky z-50">
-<div class="font-headline-md text-headline-md font-bold text-primary">Kejal Chasia</div>
-<div class="hidden md:flex gap-lg items-center">
-<a class="font-body-md text-body-md text-primary font-bold border-b-2 border-primary pb-1 transition-all duration-200 ease-in-out" href="#">Profile</a>
-<a class="font-body-md text-body-md text-on-surface-variant hover:text-primary transition-colors transition-all duration-200 ease-in-out" href="#">Portfolio</a>
-<a class="font-body-md text-body-md text-on-surface-variant hover:text-primary transition-colors transition-all duration-200 ease-in-out" href="#">Contact</a>
-</div>
-<div class="flex items-center gap-sm">
-<span class="material-symbols-outlined text-on-surface-variant cursor-pointer hover:text-primary transition-colors">settings</span>
-<div class="w-8 h-8 rounded-full bg-secondary-container flex items-center justify-center text-on-secondary-container font-label-md text-label-md" title="KS initials avatar">KS</div>
-</div>
+<body>
+
+<!-- ── NAV ── -->
+<nav>
+  <div class="nav-logo">Kejal Chasia</div>
+  <ul class="nav-links">
+    <li><a href="#about">About</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#experience">Experience</a></li>
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+  <a href="mailto:ckejal@gmail.com" class="nav-cta">Get in Touch</a>
 </nav>
-<main class="max-w-7xl mx-auto px-margin-mobile md:px-margin-desktop py-xl">
-<!-- Hero Section -->
-<section class="grid grid-cols-1 lg:grid-cols-12 gap-lg items-center mb-xl">
-<div class="lg:col-span-7 space-y-md">
-<div class="inline-flex items-center px-sm py-xs bg-secondary-fixed text-on-secondary-fixed rounded-full font-label-sm text-label-sm uppercase tracking-wider">
-                    People Operations Specialist
-                </div>
-<h1 class="font-display-lg text-display-lg text-primary tracking-tight">
-                    Optimizing the <span class="text-secondary">Human Experience</span> at Contentstack.
-                </h1>
-<p class="font-body-lg text-body-lg text-on-surface-variant max-w-2xl">
-                    I balance operational excellence with genuine empathy, transforming complex manual HR tasks into streamlined, digital workflows that empower teams to do their best work.
-                </p>
-<div class="flex gap-md pt-md">
-<button class="bg-primary text-on-primary px-lg py-sm font-label-md text-label-md rounded-lg hover:opacity-90 transition-opacity">View Portfolio</button>
-<button class="border border-secondary text-secondary px-lg py-sm font-label-md text-label-md rounded-lg hover:bg-secondary-container/10 transition-colors">Contact Me</button>
-</div>
-</div>
-<div class="lg:col-span-5 relative group">
-<div class="absolute inset-0 bg-gradient-to-tr from-primary/10 to-tertiary/10 rounded-xl -rotate-3 group-hover:rotate-0 transition-transform duration-500"></div>
-<div class="relative aspect-square overflow-hidden rounded-xl border border-outline-variant glass-card">
-<img class="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-700" data-alt="A professional and modern workspace scene featuring a clean desk with a high-end laptop, a minimalist ceramic mug, and a small green plant. The lighting is soft and airy, reflecting a light-mode corporate aesthetic with subtle blue and lavender tones in the background. The overall mood is calm, organized, and technologically advanced, echoing the 'Operational Excellence' brand pillar." src="./assets/profile.png"/>
-</div>
-</div>
+
+<!-- ── HERO ── -->
+<section class="hero" id="home">
+  <div class="hero-inner">
+    <div class="hero-content">
+      <div class="hero-tag">
+        <div class="hero-tag-dot"></div>
+        Open to Senior People Ops &amp; HRBP Roles
+      </div>
+      <h1>Building People Systems<br>That <em>Actually Work.</em></h1>
+      <p class="hero-sub">
+        People Operations Partner with 11+ years of experience stabilising HR functions, leading HRIS implementations, and turning complex operations into scalable, human-first systems.
+      </p>
+      <div class="hero-actions">
+        <a href="#projects" class="btn-primary">View My Work →</a>
+        <a href="https://linkedin.com/in/kejalchasia" target="_blank" class="btn-outline">LinkedIn Profile</a>
+      </div>
+      <div class="hero-stats">
+        <div class="stat">
+          <span class="stat-num">11+</span>
+          <span class="stat-label">Years in HR &amp; People Ops</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat">
+          <span class="stat-num">300+</span>
+          <span class="stat-label">Employees Supported</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat">
+          <span class="stat-num">99%</span>
+          <span class="stat-label">HRIS Data Accuracy</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat">
+          <span class="stat-num">5×</span>
+          <span class="stat-label">Company Awards</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="hero-card">
+      <div class="hero-card-avatar">KC</div>
+      <div class="hero-card-name">Kejal Chasia</div>
+      <div class="hero-card-title">People Operations Partner · Mumbai, India</div>
+      <div class="hero-card-items">
+        <div class="hero-card-item">
+          <div class="hero-card-icon">🏗</div>
+          <div>
+            <div class="hero-card-item-text">HiBob HRIS Implementation</div>
+            <div class="hero-card-item-sub">Full-suite · 6 months · 99% accuracy</div>
+          </div>
+        </div>
+        <div class="hero-card-item">
+          <div class="hero-card-icon">💰</div>
+          <div>
+            <div class="hero-card-item-text">End-to-End Payroll</div>
+            <div class="hero-card-item-sub">300+ employees · PF, PT, NPS, ADP</div>
+          </div>
+        </div>
+        <div class="hero-card-item">
+          <div class="hero-card-icon">🤖</div>
+          <div>
+            <div class="hero-card-item-text">AI-Powered HR Automation</div>
+            <div class="hero-card-item-sub">Claude AI · Google Apps Script</div>
+          </div>
+        </div>
+        <div class="hero-card-item">
+          <div class="hero-card-icon">🛡</div>
+          <div>
+            <div class="hero-card-item-text">SOC &amp; ISO Audit Readiness</div>
+            <div class="hero-card-item-sub">Compliance &amp; evidence management</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 </section>
-<!-- Bento Highlights -->
-<section class="grid grid-cols-1 md:grid-cols-3 gap-gutter mb-xl">
-<!-- Empathy Card -->
-<div class="md:col-span-2 p-lg bg-surface-container-lowest border border-outline-variant rounded-xl flex flex-col justify-between space-y-md">
-<div class="space-y-sm">
-<div class="w-12 h-12 bg-tertiary-fixed text-on-tertiary-fixed rounded-lg flex items-center justify-center">
-<span class="material-symbols-outlined">favorite</span>
-</div>
-<h2 class="font-headline-lg text-headline-lg text-primary">Empathy Driven Ops</h2>
-<p class="font-body-md text-body-md text-on-surface-variant">
-                        Operational efficiency is nothing without a human touch. My focus is on creating People Experiences that feel supportive rather than purely transactional.
-                    </p>
-</div>
-<div class="flex gap-xs items-center">
-<span class="px-sm py-xs bg-surface-container text-on-surface-variant rounded-full font-label-sm text-label-sm">Human-Centric</span>
-<span class="px-sm py-xs bg-surface-container text-on-surface-variant rounded-full font-label-sm text-label-sm">People Experience</span>
-</div>
-</div>
-<!-- Hibob Card -->
-<div class="p-lg bg-primary-container text-on-primary-container border border-primary rounded-xl flex flex-col justify-between">
-<div class="space-y-sm">
-<div class="w-10 h-10 bg-on-primary-container text-primary-container rounded-lg flex items-center justify-center">
-<span class="material-symbols-outlined">rocket_launch</span>
-</div>
-<h3 class="font-headline-md text-headline-md">Hibob Implementation</h3>
-<p class="font-body-sm text-body-sm opacity-90">
-                        Successfully led the migration and rollout of Hibob, reducing manual onboarding time by 40%.
-                    </p>
-</div>
-<a class="flex items-center gap-xs font-label-md text-label-md mt-md hover:underline" href="#">
-                    Read Case Study <span class="material-symbols-outlined text-[18px]">arrow_forward</span>
-</a>
-</div>
-<!-- AI Bot Card -->
-<div class="p-lg border border-outline-variant rounded-xl glass-card relative overflow-hidden group">
-<div class="absolute -right-4 -top-4 w-24 h-24 bg-tertiary-fixed-dim/20 rounded-full group-hover:scale-150 transition-transform duration-700"></div>
-<div class="space-y-sm relative z-10">
-<span class="material-symbols-outlined text-tertiary">smart_toy</span>
-<h3 class="font-headline-md text-headline-md text-primary">AI Automation</h3>
-<p class="font-body-sm text-body-sm text-on-surface-variant">
-                        Building an AI-powered chatbot to automate repetitive internal HR queries, freeing up the team for high-impact work.
-                    </p>
-</div>
-</div>
-<!-- Tech Mastery Card -->
-<div class="md:col-span-2 p-lg bg-surface-container-low border border-outline-variant rounded-xl flex items-center gap-lg">
-<div class="hidden sm:block w-32 h-32 shrink-0 bg-white rounded-xl border border-outline-variant p-md">
-<img class="w-full h-full object-cover rounded-lg" data-alt="A clean, minimalist data visualization dashboard displayed on a high-resolution screen. The interface uses soft corporate blues and lavender accents, showing neat charts and organized statistics. The setting is a bright, modern office space with natural sunlight, symbolizing the intersection of data precision and human-centric operations." src="https://lh3.googleusercontent.com/aida-public/AB6AXuChYIWiT0nhfiSzWzSYowv0s7drwJ2Zgw8g7pOD5Cvh_olM3OzJ_bWuVX28nptvYjrNBjAWeR2HSDhrx0QDTv36-YUGeuF2a-X1-enlEw64QUr_Wo0Gx5Mw8txKkc6rTBhlxnEGwJ_g4SoMK2dBKaH7ZsJiuyhZY-lBKZfKyWjR38JSZ8uPa6feGVKp2kwuD_uw28t_5_cOhY4t6IwhZiA0D_nmp1D076OE174Q8fgEpROz5A3IPF-KrqGXPxKHKtVqY_jl7StrUqC-"/>
-</div>
-<div class="space-y-xs">
-<h3 class="font-headline-md text-headline-md text-primary">Mastering Technology &amp; HR</h3>
-<p class="font-body-md text-body-md text-on-surface-variant">
-                        Bridging the gap between legacy HR processes and modern SaaS tools. Specializing in workflow orchestration and technical HR integrations.
-                    </p>
-</div>
-</div>
+
+<!-- ── IMPACT NUMBERS ── -->
+<section class="impact" style="padding: 0;">
+  <div class="impact-grid">
+    <div class="impact-item">
+      <div class="impact-num">300<span>+</span></div>
+      <div class="impact-label">Employees on Payroll</div>
+      <div class="impact-sub">Monthly end-to-end ownership</div>
+    </div>
+    <div class="impact-item">
+      <div class="impact-num">6<span>mo</span></div>
+      <div class="impact-label">HiBob Implementation</div>
+      <div class="impact-sub">Full-suite, delivered on time</div>
+    </div>
+    <div class="impact-item">
+      <div class="impact-num">10<span>hrs</span></div>
+      <div class="impact-label">Saved Per Month</div>
+      <div class="impact-sub">Through AI &amp; automation</div>
+    </div>
+    <div class="impact-item">
+      <div class="impact-num">2<span>×</span></div>
+      <div class="impact-label">Roles Absorbed</div>
+      <div class="impact-sub">Zero disruption to ops</div>
+    </div>
+  </div>
 </section>
-<!-- Profile Detail Section -->
-<section class="mb-xl bg-white border border-outline-variant rounded-xl overflow-hidden">
-<div class="p-lg md:p-xl grid grid-cols-1 md:grid-cols-2 gap-xl items-center">
-<div class="space-y-md">
-<h2 class="font-headline-lg text-headline-lg text-primary">Operational Excellence</h2>
-<p class="font-body-lg text-body-lg text-on-surface-variant">
-                        My philosophy is simple: complexity is the enemy of progress. I dive deep into the technical architecture of HR systems to ensure that our people are supported by robust, invisible infrastructure.
-                    </p>
-<ul class="space-y-sm">
-<li class="flex items-start gap-sm">
-<span class="material-symbols-outlined text-secondary mt-1">check_circle</span>
-<span class="font-body-md text-body-md">End-to-end HRIS architecture and management.</span>
-</li>
-<li class="flex items-start gap-sm">
-<span class="material-symbols-outlined text-secondary mt-1">check_circle</span>
-<span class="font-body-md text-body-md">Scalable onboarding and offboarding automation.</span>
-</li>
-<li class="flex items-start gap-sm">
-<span class="material-symbols-outlined text-secondary mt-1">check_circle</span>
-<span class="font-body-md text-body-md">Data-driven people analytics and reporting.</span>
-</li>
-</ul>
-</div>
-<div class="aspect-video bg-surface-container-high rounded-lg flex items-center justify-center p-lg">
-<div class="text-center space-y-sm">
-<div class="text-display-lg font-display-lg text-primary">40%</div>
-<div class="font-label-md text-label-md text-on-surface-variant tracking-widest uppercase">Manual Task Reduction</div>
-</div>
-</div>
-</div>
+
+<!-- ── ABOUT ── -->
+<section class="about" id="about">
+  <div class="section-inner">
+    <div class="about-grid">
+      <div class="about-text">
+        <div class="section-eyebrow">About Me</div>
+        <h2 class="section-title">HR Operations,<br><em>Built to Scale.</em></h2>
+        <p>I am a People Operations Partner who has spent 11+ years at the intersection of HR strategy and operational execution — in SaaS, consulting, and global organisations.</p>
+        <p>At Contentstack, I single-handedly stabilised the entire People Operations function through two consecutive restructuring events — absorbing the responsibilities of two additional roles with <strong>zero disruption to payroll, compliance, or employee experience.</strong></p>
+        <p>My edge is being both strategic and deeply operational. I don't just run processes — I architect them, automate them, and make them scale. From leading a 6-month full-suite HiBob HRIS implementation to building AI-powered HR tools using Claude and Google Apps Script, I bring a technology-forward mindset to everything People Ops.</p>
+        <div style="margin-top: 28px;">
+          <a href="mailto:ckejal@gmail.com" class="btn-primary" style="display: inline-flex;">Work With Me →</a>
+        </div>
+      </div>
+      <div class="about-highlights">
+        <div class="highlight-item">
+          <div class="highlight-icon">🏗</div>
+          <div>
+            <div class="highlight-title">HRIS Architecture &amp; Implementation</div>
+            <div class="highlight-desc">Led end-to-end HiBob implementation across 6 months — from business process mapping to full deployment with 99% data accuracy.</div>
+          </div>
+        </div>
+        <div class="highlight-item">
+          <div class="highlight-icon">⚡</div>
+          <div>
+            <div class="highlight-title">AI-Powered People Ops</div>
+            <div class="highlight-desc">Built automated payroll tools and an AI HR Helpdesk using Claude AI and Google Apps Script — saving 5–10 hours of manual work monthly.</div>
+          </div>
+        </div>
+        <div class="highlight-item">
+          <div class="highlight-icon">🛡</div>
+          <div>
+            <div class="highlight-title">Compliance &amp; Audit Readiness</div>
+            <div class="highlight-desc">Own SOC and ISO audit readiness end-to-end — documentation, evidence management, and compliance controls across all stakeholders.</div>
+          </div>
+        </div>
+        <div class="highlight-item">
+          <div class="highlight-icon">📊</div>
+          <div>
+            <div class="highlight-title">People Analytics &amp; Dashboards</div>
+            <div class="highlight-desc">Built real-time dashboards for headcount, attrition, and compensation using Looker Studio — enabling data-driven leadership decisions.</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 </section>
-</main>
-<!-- Footer -->
-<footer class="bg-surface-container-lowest border-t border-surface-variant w-full py-lg px-margin-mobile md:px-margin-desktop flex flex-col md:flex-row justify-between items-center gap-md">
-<div class="flex flex-col items-center md:items-start gap-xs">
-<div class="font-headline-md text-headline-md text-primary font-bold">Kejal</div>
-<p class="font-label-md text-label-md text-on-surface-variant opacity-80">© 2024 Kejal. People Operations Specialist.</p>
-</div>
-<div class="flex gap-lg">
-<a class="font-label-md text-label-md text-on-surface-variant hover:text-primary transition-colors opacity-80 hover:opacity-100" href="#">LinkedIn</a>
-<a class="font-label-md text-label-md text-on-surface-variant hover:text-primary transition-colors opacity-80 hover:opacity-100" href="#">Twitter</a>
-<a class="font-label-md text-label-md text-on-surface-variant hover:text-primary transition-colors opacity-80 hover:opacity-100" href="#">Email</a>
-</div>
+
+<!-- ── PROJECTS ── -->
+<section class="projects" id="projects">
+  <div class="section-inner">
+    <div class="section-eyebrow">Featured Projects</div>
+    <h2 class="section-title">Work That <em>Made an Impact.</em></h2>
+    <p class="section-sub">Real projects, real numbers. Here's what I've built and delivered.</p>
+    <div class="projects-grid">
+
+      <div class="project-card">
+        <div class="project-tag">🏗 HRIS Implementation</div>
+        <div class="project-icon" style="background: linear-gradient(135deg, #f3eeff, #e8d8ff);">🚀</div>
+        <div class="project-title">HiBob Full-Suite Implementation</div>
+        <div class="project-desc">Led end-to-end HiBob HRIS implementation over 6 months — from requirement gathering and business process mapping to system configuration, data migration, and full deployment. Owned every module across the suite.</div>
+        <div class="project-stats">
+          <div class="project-stat-item">
+            <div class="project-stat-num">6mo</div>
+            <div class="project-stat-label">Timeline</div>
+          </div>
+          <div class="project-stat-item">
+            <div class="project-stat-num">99%</div>
+            <div class="project-stat-label">Data Accuracy</div>
+          </div>
+          <div class="project-stat-item">
+            <div class="project-stat-num">300+</div>
+            <div class="project-stat-label">Employees</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <div class="project-tag">🤖 AI Automation</div>
+        <div class="project-icon" style="background: linear-gradient(135deg, #fce8f4, #f8d8ee);">⚡</div>
+        <div class="project-title">AI-Powered HR Helpdesk &amp; Payroll Automation</div>
+        <div class="project-desc">Built an AI-powered HR Helpdesk Assistant and automated payroll input tools using Claude AI and Google Apps Script — eliminating repetitive manual queries and reducing monthly processing time significantly.</div>
+        <div class="project-stats">
+          <div class="project-stat-item">
+            <div class="project-stat-num">10hrs</div>
+            <div class="project-stat-label">Saved Monthly</div>
+          </div>
+          <div class="project-stat-item">
+            <div class="project-stat-num">Claude</div>
+            <div class="project-stat-label">AI Engine</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <div class="project-tag">💰 Payroll &amp; Compliance</div>
+        <div class="project-icon" style="background: linear-gradient(135deg, #eef8ee, #d8f0d8);">🛡</div>
+        <div class="project-title">End-to-End Payroll Operations &amp; ADP Onboarding</div>
+        <div class="project-desc">Own complete monthly payroll for 300+ employees across PF, PT, NPS, and meal benefits. Currently leading ADP India onboarding as Payroll SPOC — managing vendor transition, compliance framework, and stakeholder alignment.</div>
+        <div class="project-stats">
+          <div class="project-stat-item">
+            <div class="project-stat-num">300+</div>
+            <div class="project-stat-label">Headcount</div>
+          </div>
+          <div class="project-stat-item">
+            <div class="project-stat-num">ADP</div>
+            <div class="project-stat-label">Vendor SPOC</div>
+          </div>
+          <div class="project-stat-item">
+            <div class="project-stat-num">100%</div>
+            <div class="project-stat-label">Compliance</div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ── SKILLS ── -->
+<section class="skills" id="skills">
+  <div class="section-inner">
+    <div class="section-eyebrow">Skills &amp; Tools</div>
+    <h2 class="section-title">The Full <em>Toolkit.</em></h2>
+    <p class="section-sub">11+ years of tools, systems, and skills — all in service of better People Operations.</p>
+    <div class="skills-grid">
+      <div class="skill-group">
+        <div class="skill-group-title"><span class="skill-group-icon">🏗</span> HRIS &amp; Systems</div>
+        <div class="skill-tags">
+          <span class="skill-tag">HiBob</span>
+          <span class="skill-tag">Oracle HCM</span>
+          <span class="skill-tag">PeopleStrong</span>
+          <span class="skill-tag">HRIS Implementation</span>
+          <span class="skill-tag">Data Migration</span>
+        </div>
+      </div>
+      <div class="skill-group">
+        <div class="skill-group-title"><span class="skill-group-icon">💰</span> Payroll</div>
+        <div class="skill-tags">
+          <span class="skill-tag">ADP</span>
+          <span class="skill-tag">GreytHR</span>
+          <span class="skill-tag">ActivePayroll</span>
+          <span class="skill-tag">HR Mantra</span>
+          <span class="skill-tag">ESSL</span>
+          <span class="skill-tag">PF / PT / NPS</span>
+        </div>
+      </div>
+      <div class="skill-group">
+        <div class="skill-group-title"><span class="skill-group-icon">📊</span> Analytics</div>
+        <div class="skill-tags">
+          <span class="skill-tag">Looker Studio</span>
+          <span class="skill-tag">Advanced MS Excel</span>
+          <span class="skill-tag">Google Workspace</span>
+          <span class="skill-tag">HR Dashboards</span>
+        </div>
+      </div>
+      <div class="skill-group">
+        <div class="skill-group-title"><span class="skill-group-icon">🤖</span> AI &amp; Automation</div>
+        <div class="skill-tags">
+          <span class="skill-tag">Claude AI</span>
+          <span class="skill-tag">Google Apps Script</span>
+          <span class="skill-tag">ChatGPT</span>
+          <span class="skill-tag">Gemini</span>
+          <span class="skill-tag">Workflow Automation</span>
+        </div>
+      </div>
+      <div class="skill-group">
+        <div class="skill-group-title"><span class="skill-group-icon">🛡</span> Compliance</div>
+        <div class="skill-tags">
+          <span class="skill-tag">SOC Audit</span>
+          <span class="skill-tag">ISO Audit</span>
+          <span class="skill-tag">Statutory Compliance</span>
+          <span class="skill-tag">Audit Documentation</span>
+        </div>
+      </div>
+      <div class="skill-group">
+        <div class="skill-group-title"><span class="skill-group-icon">🤝</span> HR Operations</div>
+        <div class="skill-tags">
+          <span class="skill-tag">Employee Lifecycle</span>
+          <span class="skill-tag">Stakeholder Management</span>
+          <span class="skill-tag">Grievance Handling</span>
+          <span class="skill-tag">Policy Management</span>
+          <span class="skill-tag">Employee Experience</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── AWARDS ── -->
+<section class="awards">
+  <div class="section-inner">
+    <div style="text-align: center; margin-bottom: 0;">
+      <div class="section-eyebrow" style="text-align: center;">Recognition</div>
+      <h2 class="section-title" style="text-align: center;">Awarded for <em>Going Beyond.</em></h2>
+      <p class="section-sub" style="margin: 0 auto;">Recognised multiple times for outstanding contribution, cross-functional excellence, and consistently exceeding role expectations.</p>
+    </div>
+    <div class="awards-grid">
+      <div class="award-card">
+        <span class="award-emoji">🏆</span>
+        <div class="award-title">Thank You Award</div>
+        <div class="award-count">3×</div>
+        <div class="award-desc">Awarded three times for outstanding people contribution and going above expectations</div>
+      </div>
+      <div class="award-card">
+        <span class="award-emoji">🤝</span>
+        <div class="award-title">One Team One Dream</div>
+        <div class="award-count">1×</div>
+        <div class="award-desc">Recognised for exceptional cross-functional collaboration and partnership across teams</div>
+      </div>
+      <div class="award-card">
+        <span class="award-emoji">⭐</span>
+        <div class="award-title">Above &amp; Beyond Award</div>
+        <div class="award-count">1×</div>
+        <div class="award-desc">Exceptional contribution that went well beyond the scope of the role</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── EXPERIENCE ── -->
+<section class="experience" id="experience">
+  <div class="section-inner">
+    <div class="section-eyebrow">Experience</div>
+    <h2 class="section-title">11+ Years of <em>Building.</em></h2>
+    <div class="timeline">
+
+      <div class="timeline-item">
+        <div>
+          <div class="timeline-date">Dec 2023 – Present</div>
+        </div>
+        <div class="timeline-content">
+          <div class="timeline-company">Contentstack · Mumbai</div>
+          <div class="timeline-role">People Operations Partner</div>
+          <div class="timeline-desc">Single-handedly stabilised the entire PeopleOps function through 2 consecutive restructuring events. Own end-to-end payroll for 300+ employees, led full-suite HiBob HRIS implementation, and built AI-powered HR automation tools — all simultaneously, with zero operational disruption.</div>
+          <div class="timeline-tags">
+            <span class="timeline-tag">HiBob Implementation</span>
+            <span class="timeline-tag">Payroll — 300+</span>
+            <span class="timeline-tag">SOC &amp; ISO Audit</span>
+            <span class="timeline-tag">AI Automation</span>
+            <span class="timeline-tag">ADP Onboarding</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="timeline-item">
+        <div>
+          <div class="timeline-date">Aug 2023 – Dec 2023</div>
+        </div>
+        <div class="timeline-content">
+          <div class="timeline-company">IIDE · Mumbai</div>
+          <div class="timeline-role">Team Lead – Human Resources</div>
+          <div class="timeline-desc">Led HR operations during a high-growth phase, managing a team of 3. Standardised policies, scaled compliance frameworks, and acted as a trusted partner for employee relations and stakeholder advisory.</div>
+          <div class="timeline-tags">
+            <span class="timeline-tag">Team Leadership</span>
+            <span class="timeline-tag">HR Policy</span>
+            <span class="timeline-tag">Compliance</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="timeline-item">
+        <div>
+          <div class="timeline-date">Apr 2021 – Aug 2023</div>
+        </div>
+        <div class="timeline-content">
+          <div class="timeline-company">Indicia Worldwide (Konica Minolta Group) · Mumbai</div>
+          <div class="timeline-role">HR Generalist &amp; Talent Acquisition Specialist</div>
+          <div class="timeline-desc">Delivered HR support across APAC and EMEA regions. Partnered with leadership on workforce planning, hiring strategy, and engagement initiatives across distributed teams.</div>
+          <div class="timeline-tags">
+            <span class="timeline-tag">APAC &amp; EMEA</span>
+            <span class="timeline-tag">Talent Acquisition</span>
+            <span class="timeline-tag">Workforce Planning</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="timeline-item">
+        <div>
+          <div class="timeline-date">Jul 2018 – Apr 2021</div>
+        </div>
+        <div class="timeline-content">
+          <div class="timeline-company">Encube Ethical · Mumbai &amp; Goa</div>
+          <div class="timeline-role">HR Executive</div>
+          <div class="timeline-desc">Managed end-to-end HR operations including payroll coordination, statutory compliance, onboarding, and employee relations.</div>
+          <div class="timeline-tags">
+            <span class="timeline-tag">Payroll</span>
+            <span class="timeline-tag">Compliance</span>
+            <span class="timeline-tag">Employee Relations</span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ── CONTACT ── -->
+<section class="contact" id="contact">
+  <div class="contact-inner">
+    <h2>Let's Build Something <em>Great Together.</em></h2>
+    <p>Open to senior People Operations Partner, HRBP, and HR Technology roles in SaaS and global organisations. Based in Mumbai — open to remote.</p>
+    <div class="contact-links">
+      <a href="mailto:ckejal@gmail.com" class="contact-link contact-link-primary">✉ ckejal@gmail.com</a>
+      <a href="https://linkedin.com/in/kejalchasia" target="_blank" class="contact-link contact-link-secondary">LinkedIn →</a>
+      <a href="tel:+919773756887" class="contact-link contact-link-secondary">+91 97737 56887</a>
+    </div>
+  </div>
+</section>
+
+<!-- ── FOOTER ── -->
+<footer>
+  <div class="footer-name">Kejal Chasia</div>
+  <div class="footer-copy">© 2026 · People Operations Partner · Mumbai, India</div>
 </footer>
-</body></html>
+
+</body>
+</html>
